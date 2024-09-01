@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Jetbrains;
+    src: url('./fonts/JetBrainsMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: Jetbrains-B;
+    src: url('./fonts/JetBrainsMono-Bold.ttf');
+}
+
+@font-face {
+    font-family: Jetbrains-L;
+    src: url('./fonts/JetBrainsMono-Light.ttf');
+}
+
+@font-face {
+    font-family: Jetbrains-XL;
+    src: url('./fonts/JetBrainsMono-ExtraLight.ttf');
+}
+
+
+html {
+    background-color: black;
+}
+
+.main-app-text {
+    font-family: Jetbrains-B;
+    font-size: 72px;
+    padding-top: 10vh;
+    padding-left: 5vw;
+}
+
+.main-section {
+    background-color: #003F4F;
+    height: 50vh;
+}
+
+.header {
+    background-color: rgba(81, 81, 81, 0.367);
+    padding: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    align-items: center;
+    backdrop-filter: blur(40px);
+    z-index: 1;
+    font-family: Jetbrains;
+    color: #a9f285;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    color: #a9f285;
+}
+
+.header-logo {
+    height: 4.5vh;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+    margin-left: -3vw;
+}
+
+.download-section {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-section {
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+    margin-top: 5.5vh;
+}
+
+.screen1 {
+    width: 36vw;
+    height: fit-content;
+}
+
+.screen2 {
+    width: 36vw;
+    margin-top: 10vh;
+}
+
+.download-button {
+    color: black;
+    margin-bottom: 0.2vh;
+}
+
+.download-container {
+    background-color: rgb(3, 227, 3);
+    padding: 3vw;
+    font-family: Jetbrains-B;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    min-width: max-content;
+    width: 40vw;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 20px;
+    height: 5vh;
+    margin-top: 5vh;
+}
+
+.version-text {
+    font-size: 12px;
+    color: rgb(40, 40, 40);
+    font-family: Jetbrains-XL;
+}
+
+.about-section {
+    color: #a9f285;
+    font-family: Jetbrains-XL;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.more-section {
+    color: #f4f4f4;
+    font-family: Jetbrains-XL;
+    margin-top: 10vh;
+    text-align: center;
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+}
+
+.question-text {
+    font-family: Jetbrains-B;
+    font-size: 25px;
+    color: rgb(3, 227, 3);
+    margin-top: 2vh;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.description-text {
+    gap: 1vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-description {
+    color: #648e7b
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    align-self: center;
+}
+
+.social-name {
+    margin-top: 1.2vh;
+}
+
+.links {
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+    color: #a9f285;
+}
+
+.github {
+    margin-bottom: 3vh;
+}
