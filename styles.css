@@ -18,6 +18,10 @@
     src: url('./fonts/JetBrainsMono-ExtraLight.ttf');
 }
 
+@font-face {
+    font-family: 'Jetbrains-XLI';
+    src: url('./fonts/JetBrainsMono-ExtraLightItalic.ttf');
+}
 
 html {
     background-color: black;
@@ -95,6 +99,12 @@ html {
     margin-top: 10vh;
 }
 
+.main-download-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
 .download-button {
     color: black;
     margin-bottom: 0.2vh;
@@ -108,7 +118,24 @@ html {
     display: flex;
     flex-direction: column;
     min-width: max-content;
-    width: 40vw;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 20px;
+    height: 5vh;
+    margin-top: 5vh;
+}
+
+.apple-download-container {
+    background-color: rgb(31, 31, 31);
+    padding: 3vw;
+    font-family: Jetbrains-B;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    min-width: max-content;
+    width: 30vw;
     align-items: center;
     justify-content: center;
     color: black;
@@ -120,6 +147,12 @@ html {
 .version-text {
     font-size: 12px;
     color: rgb(40, 40, 40);
+    font-family: Jetbrains-XL;
+}
+
+.apple-version-text {
+    font-size: 12px;
+    color: rgb(155, 155, 155);
     font-family: Jetbrains-XL;
 }
 
@@ -189,4 +222,42 @@ a {
 
 .github {
     margin-bottom: 3vh;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3vw;
+}
+
+.steps-title-section {
+    margin-top: 15vh;
+    color: white;
+    font-family: 'Jetbrains-B';
+    font-size: 6vw;
+    margin-bottom: 1vh;
+}
+
+.steps-title-small {
+    color: rgb(116, 116, 116);
+    font-family: 'Jetbrains-XLI';
+    font-size: 2.8vw;
+}
+
+.installation-instruction {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Jetbrains-L';
+    align-items: center;
+}
+
+.instruction-screens {
+    width: 60vw;
+}
+
+.installation-instruction-1 {
+    color: white;
+    font-family: 'Jetbrains-L';
 }
