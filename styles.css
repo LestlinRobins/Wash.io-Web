@@ -25,10 +25,11 @@
 
 html {
     background-color: black;
+    /* background: radial-gradient(circle at bottom left, rgba(0, 255, 8, 0.4) 10%, transparent 40%); */
 }
 
 .main-app-text {
-    font-family: Jetbrains-B;
+    font-family: 'Jetbrains-B';
     font-size: 72px;
     padding-top: 10vh;
     padding-left: 5vw;
@@ -40,7 +41,7 @@ html {
 }
 
 .header {
-    background-color: rgba(81, 81, 81, 0.367);
+    background-color: rgba(34, 57, 30, 0.367);
     padding: 4vh;
     display: flex;
     flex-direction: row;
@@ -92,11 +93,13 @@ html {
 .screen1 {
     width: 36vw;
     height: fit-content;
+    box-shadow: -10px 1px 100px 1px rgba(0, 128, 0, 0.422);
 }
 
 .screen2 {
     width: 36vw;
     margin-top: 10vh;
+    box-shadow: 10px 1px 100px 1px rgba(0, 128, 0, 0.326);
 }
 
 .main-download-container {
@@ -108,6 +111,7 @@ html {
 .download-button {
     color: black;
     margin-bottom: 0.2vh;
+    box-shadow: 10px 1px 100px 1px rgba(0, 128, 0, 0.222);
 }
 
 .download-container {
@@ -125,6 +129,7 @@ html {
     border-radius: 20px;
     height: 5vh;
     margin-top: 5vh;
+    box-shadow: 10px 1px 100px 1px rgba(0, 128, 0, 0.584);
 }
 
 .apple-download-container {
@@ -142,6 +147,7 @@ html {
     border-radius: 20px;
     height: 5vh;
     margin-top: 5vh;
+    box-shadow: 10px 1px 100px 1px rgba(0, 0, 0, 0.567);
 }
 
 .version-text {
@@ -255,6 +261,7 @@ a {
 
 .instruction-screens {
     width: 60vw;
+    margin-top: 20px;
 }
 
 .installation-instruction-1 {
